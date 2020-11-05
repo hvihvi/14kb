@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/hvihvi/14kb/issues"
   },
-  "homepage": "https://github.com/hvihvi/14kb#readme"
+  "homepage": "https://github.com/hvihvi/14kb#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
 }
