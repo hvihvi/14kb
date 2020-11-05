@@ -1,0 +1,23 @@
+{
+  "name": "14kb",
+  "version": "1.0.0",
+  "description": "checks if page size is below 14kb",
+  "main": "index.js",
+  "bin": {
+    "14kb": "14kb.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hvihvi/14kb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hvihvi/14kb/issues"
+  },
+  "homepage": "https://github.com/hvihvi/14kb#readme"
+}
