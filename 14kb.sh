@@ -30,4 +30,11 @@ SIZE=$(curl -so /dev/null "${1}" -w '%{size_download}' \
 
 
 SIZE_HUMAN=$(bytesToHuman "$SIZE")
-echo "Size : $SIZE_HUMAN $SIZE"
+echo "Size : $SIZE_HUMAN"
+
+MAX=14000
+
+if ((SIZE > MAX));
+then echo "$SIZE is greater than $MAX"
+exit 1
+fi
