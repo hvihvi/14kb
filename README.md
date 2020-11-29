@@ -6,5 +6,5 @@ See https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work#T
 ### Usage
 
 ```bash
-./14kb.sh
+./14kb.sh website_url
 ```
